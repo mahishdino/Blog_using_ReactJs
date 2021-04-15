@@ -1,0 +1,25 @@
+.gallerypost {
+  display: flex;
+  justify-content: space-between;
+}
+.sideimagewrapper div {
+  width: 100%;
+}
+.sideimagewrapper div img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.Homec {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.postimagewrapper {
+  height: 450px;
+  overflow: hidden;
+}
+.postimagewrapper img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
